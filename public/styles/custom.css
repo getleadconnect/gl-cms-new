@@ -1,0 +1,131 @@
+.heading{margin-top: 3%!important;}
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+    opacity: 0.9;
+  }
+
+  button:hover {
+    opacity:1;
+  }
+
+  /* Float cancel and delete buttons and add an equal width */
+  .cancelbtn, .deletebtn {
+    float: left;
+    width: 50%;
+  }
+
+  /* Add a color to the cancel button */
+  .cancelbtn {
+    background-color: #ccc;
+    color: black;
+  }
+
+  /* Add a color to the delete button */
+  .deletebtn {
+    background-color: #f44336;
+  }
+  /* The Modal (background) */
+  .modal {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: #474e5d; */
+    padding-top: 50px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  /* The Modal Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .modal-content p{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .clearfix{
+    display: flex;
+    justify-content: space-between;
+  }
+.image-box-div img{
+    margin: auto;
+    display: flex;
+}
+.row-box{
+    align-items: center;
+}
+
+.widthClass{
+    width: 100%;
+    height: 120px !important;
+}
+
+.logo-class{
+    width:10% ;
+}
+.images-preview-div img{
+    height: 200px;
+    width: 100%;
+}
+
+.success
+{
+	color:green;
+}
+
+.danger
+{
+	color:red;
+}
+
+.btn-rounded
+{
+	border-radius: 50px !important;
+    padding: 4px 6px !important;
+}
+.btn-rounded i
+{
+	font-weight: 600;
+    font-size: 14px;
+}
+

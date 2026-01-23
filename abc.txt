@@ -1,0 +1,160 @@
+
+https://codepen.io/btn-ninja/pen/YrXmax
+
+gl-cms
+
+admin@getleadcrm.com
+JhG*&PFB8XF9PmpR
+//----------------------------
+
+1. Already Registred   -  User already exists, try again ->  User already exists. Please Click here to update the slot booking
+2. In slot booking Page - Booking Dates are from Feb 19-26 ->  It should be Feb -09 to16
+3. Registration Page count - January 25th & 26th currently not available for booking -> Feb -15  to 16
+4. In slot booking Page ->February 15th & 16th currently not available for booking.* 
+5. In slot booking Page - Available in GREEN & Not available in RED
+6. Landing Page - date is wrong - need to be updated
+7. In slot booking otp page -> date changed
+8. In otp verify page -> date changed
+
+
+9:30AM - 145 PM - carhands lead status changes (4:15hrs)
+2:10PM-5:00 PM - carhands continue (2:50hrs)
+5:00PM - 6:30 PM - msm slot booking changes (1:30hrs)
+total:8:35hrs
+
+24/1
+
+11:45AM - 2:00 PM - msm slot booking changes(2:15 hrs)
+2:25 PM-6:30 PM - msm add family members /edit/remove options (4:05hrs)
+total:6:20hrs
+
+25/1
+10:30AM - 1:50 PM - msm-kids  registration (3:20 hrs)
+2:10 PM - 6:30 PM - continue msm registration parent and institutions (4:20hrs)
+total:7:40hrs
+
+30/1
+9:50 AM - 2:00 PM - aim app server settings (4:10hrs)
+2:20 PM - 3:00 PM -  aim continue (1:20hrs)
+3:00 PM - 6:50 PM - mediguru (homeopathy app delete account creation) (3:50hrs)
+Total : 9:20hrs
+
+31/1
+9:45AM - 1:50 PM - msm changes (4:05 hrs)
+2:10 PM - 6:50 PM - continue msm registration country code adding, validation mobile(4:40hrs)
+total:8:45hrs
+
+1/2
+
+10:30AM - 2:10 PM - msm changes (3:40 hrs)
+2:30 PM - 7:15 PM - continue msm-kids registration and others(4:45hrs)
+total:8:25hrs
+
+5/2
+9:20AM - 1:50 PM - msm  & msm kids changes (4:30 hrs)
+2:20 PM - 7:15 PM - continue msm & msm-kids  changes(4:55hrs)
+total:9:25hrs
+
+6/2
+9:30AM - 1:50 PM - msm  & msm kids changes (4:20 hrs)
+2:20 PM - 8:15 PM - continue msm & msm-kids  changes(5:55hrs)
+total:10:15hrs
+
+
+7/2
+9:50AM - 1:50 PM - msm  & msm kids changes (4:00 hrs)
+2:20 PM - 7:15 PM - continue msm & msm-kids  changes(4:55hrs)
+total:8:55hrs
+
+'919526128045'
+
+10:00AM - 1:50 PM - msm  & msm kids changes (3:50 hrs)
+2:10 PM - 7:00 PM - continue msm & msm-kids  changes(4:50hrs)
+total:8:40hrs
+
+9/2
+10:00AM - 1:50 PM - msm kids booking list changes (3:50 hrs)
+2:10 PM - 4:00 PM - continue msm-kids  export booking list changes(1:50hrs)
+4:00 PM - 6:30 PM - Townin table creation changes(2:30hrs)
+total:8:10hrs
+
+15/2
+9:50 AM - 1:30 PM - mediguru hosting to new serve r for testing (3:40 hrs)
+2:30 PM - 4:30 PM - continue mediguru (2:00hrs)
+4:30 PM - 6:30 PM - msm regiter page changes(2:00hrs)
+total:7:40hrs
+
+21/2
+10:20 AM - 1:30 PM - zuper app delete account (3:10 hrs)
+3:15 PM - 6:20 PM - zuper app server updattion for delete account (3:05hrs)
+total:6:15hrs
+
+1/3
+9:20 AM - 1:00 PM - mediguru api changes (3:40 hrs)
+1:30 PM - 5:15 PM - towinin testimonial adding(4:15 hrs) 
+total: 7:55hrs
+
+5/3
+9:30 AM - 1:35 PM - mediguru api bugs checking and solved & prepare aim backend options (4:05 hrs)
+2:00 PM - 6:15 PM - towinin bahrain city plan changes and new admin template checking(4:15 hrs) 
+total: 8:20hrs
+
+7/3
+9:50 AM - 1:20 PM - mediguru api subject view bugs checking and solved (3:30 hrs)
+2:50 PM - 6:30 PM - towinin bahrain city plan changes and new admin template checking(3:20 hrs) 
+total: 6:50hrs
+
+8/3
+9:45 AM - 1:55 PM - Townin in UAE- Admin panel changes (4:10 hrs)
+2:20 PM - 6:20 PM - Checking all option and admin panels and host in to server(4:00 hrs) 
+total: 8:10hrs
+
+11/3
+9:50 AM - 1:25 PM - gelead cms checking and changes (3:35 hrs)
+2:50 PM - 6:30 PM - continue getlead cms(3:40 hrs) 
+total: 7:15hrs
+
+12/3
+10:30 AM - 11:30 PM - webos website hosting (1:00 hrs)
+11:30 PM - 1:50 PM - getlead cms articale,blog,faq checking and changes(2:20 hrs) 
+2:20 PM - 6:40 PM - continue getlead cms(4:20 hrs) 
+total: 7:40hrs
+
+13/3
+9:50 AM - 12:25 PM - aim admin dashboard configuration (2:35 hrs)
+2:00 PM - 6:30 PM - company page integration and changes(4:30 hrs) 
+total: 7:05hrs
+
+14/3
+4:00 PM - 5:00 PM - Mediguru answer key checking (1:00 hrs)
+5:00 PM - 6:00 PM - AIM center add/edit/delete html (1hrs)
+6:30 PM - 12:15 AM
+Course - add/edit/delete/activate/deactivate html
+Subject - add/edit/delete/activate/deactivate html
+Chapter - add/edit/delete/activate/deactivate html (5:45 hrs)
+total: 7:45hrs
+
+15/3
+4:15 PM - 6:30 PM - Student  registration, sucscriptions html (2:15 hrs)
+6:45 PM - 12:30 AM - Question bank preparation,subjects, questions,
+model tests - question papers, prepare question paper, view questions, pdf questions
+(add/edit/delete/activate/deactivate) html (5:45 hrs)
+total: 8:00hrs
+
+16/3
+2:00 PM - 4:30 PM - townin zetpo mail integration and table id key changes(2:35 hrs)
+6:00 PM - 11:00 AM - Live class and student filter, question apaper filter and othwers html (5:00 hrs)
+total: 7:35hrs
+
+21/3
+11:00 AM - 12:30 PM - Live class , spalsh slides (1:30 hrs)
+2:00 PM - 6:00 PM - Video class, PDF files (4:00 hrs)
+7:00 PM - 10:15 PM - student activities, video comments (3:15 hrs)
+total: 8:45hrs
+
+
+test result, rank list
+policy privacy and terms
+Examination tab headings
+
+https://www.youtube.com/watch?v=7xvesFKreB8

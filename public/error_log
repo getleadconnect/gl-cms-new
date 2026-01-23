@@ -1,0 +1,35 @@
+[11-Sep-2024 17:20:32 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct('App\\Exceptions\\...')
+#1 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#2 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#3 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#4 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build(Object(Closure))
+#6 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(303): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#11 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#12 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
+Stack trace:
+#0 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#1 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#2 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(295): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#3 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build(Object(Closure))
+#5 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(303): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(233): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(210): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#11 /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#13 {main}
+  thrown in /home1/webqua/public_html/gl-cms/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 891
