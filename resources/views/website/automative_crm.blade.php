@@ -11,7 +11,7 @@
    <div class="container">
       <div class="main-wrapper pos-r" style="text-align:center;">
          <h1 class="secondary-title banner-main-title pt-15 pb-15 md-pt-10 md-pb-30 wow fadeInUp animated" data-wow-delay="0.4s">
-            Experience the power of our CRM <br>for the Automotive industry 
+            Experience the power of our CRM  <br>for the Automotive industry 
          </h1>
 
          <!-- <div class="banner-img" >
