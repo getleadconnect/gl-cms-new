@@ -2,7 +2,7 @@
 @section('title')
 <meta name="description" content="Close deals faster with GetLead CRM's deal management software. Automate workflows, access powerful analytics, and take control of your sales pipeline. Sign up now!
    ">
-<title>Automative CRM</title>
+<title>Automotive CRM</title>
 @endsection
 @section('css')
 @endsection
