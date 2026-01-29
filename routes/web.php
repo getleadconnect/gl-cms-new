@@ -175,7 +175,7 @@ Route::controller(websiteController::class)->group(function(){
     Route::get('travel-crm', 'travelCrm')->name('travel-crm');
     Route::get('whatsapp-crm', 'whatsappCrm')->name('whatsapp-crm');
     
-    Route::get('privacy-policy','privacyPolicyPage')->name('privacy-policy-page');
+    Route::get('privacy-policy','privacyPolicyPage')->name('privacy-policy');
     Route::get('terms_and_conditions','termsConditions')->name('terms-and-conditions');
     Route::get('terms-and-conditions','termsConditions')->name('terms-and-conditions');
     Route::get('careers','careersPage')->name('career-page');
