@@ -201,3 +201,67 @@ Copy the two modified files to your production codebase.
 **Prepared by:** Chathan (SEO Bot)  
 **Date:** January 29, 2026  
 **For:** Getlead CRM / Akhil
+
+
+
+
+
+WEBOS CHANGES:
+
+Driver Pickups section
+1. Barcode Generation for Manual Airway Bill Printing
+Function: Generate sequential barcodes for airway bills.
+Range: Support for bulk generation (e.g., 0000001 to 005000 / 010000).
+Export Options: Printable format (PDF) with barcode, airway bill number, and placeholders for manual entries (e.g., sender, receiver, contents).
+Status: Initially marked as Unused in the database until assigned to a shipment.
+
+2. Assigning Users for Shipment Pickup Functionality:
+a. Admin assigns pickup drivers to specific customer accounts or pickup requests.
+b. Driver details adding
+c. Assign customers to drivers
+d. Assign pickups details to driver with
+   Driver name/user ID, Date/time, Package count
+e. Individual Driver Dashboard:
+f. List of packages picked per day and update status
+g. Status: Picked / In Transit / Delivered
+
+3. Manual Bill Entry and Submission to Customer Account
+Process Flow:
+Picked packages with manual airway bill numbers are entered into the system.
+Status: Draft
+Fields filled manually (physically) on paper should be digitally replicated (sender, receiver, weight, dimensions, etc.)
+
+After entry, status changes to Submitted and is linked to the customer account for billing or reference.
+
+4. Warehouse Scanning with Allocated User
+Functionality:
+After pickup, packages are scanned at the warehouse.
+Scanning done by allocated warehouse staff (user-based access).
+System logs: Date/time of scan
+Location
+User who scanned
+Status updated to In Warehouse or Ready for Delivery.
+
+5. Driver Allocation for Delivery and Proof Collection
+Delivery Assignment:
+Admin assigns delivery drivers to airway bill groups.
+Each airway bill includes:
+Package count.Destination.Customer details, Delivery Confirmation:
+Status marked as Delivered only when:
+
+Driver Dashboard:
+List of deliveries for the day
+Delivered vs Pending count
+
+6. New changes
+a. in shipper line integrate international shipments country Zones, and export prices and import prices details.
+b. To configure countries and cities into the databases.
+c. To set all Zones export/import prices
+d. set international shipments creation in shipperline.com
+e. to update rate calculation in admin/client sections.
+f. To add/edit/delete cities facility to admin panel.
+
+
+
+
+
