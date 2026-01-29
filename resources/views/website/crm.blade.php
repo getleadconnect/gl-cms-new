@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="GetLead CRM is a powerful tool for managing your sales process. With customizable software, automated workflows, and powerful analytics, you can streamline your sales pipeline and close more deals. Sign up for GetLead CRM today and take your sales to the next level.">
-<title>GetLead CRM - The Complete CRM Solution for Your Business
-</title>   
+<meta name="description" content="Getlead CRM is a powerful tool for managing your sales process. Customizable software, automated workflows, and powerful analytics.">
+<title>Getlead CRM - The Complete CRM Solution for Your Business</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Getlead CRM - Complete CRM Solution" />
+<meta property="og:description" content="Powerful CRM for managing your sales process. Customizable, automated workflows, and analytics to close more deals." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Getlead CRM - Complete CRM Solution" />
+<meta name="twitter:description" content="Powerful CRM for managing your sales process. Customizable, automated workflows, and analytics to close more deals." />
 @endsection
 @section('css')
 @endsection

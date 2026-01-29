@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="Close deals faster with GetLead CRM's deal management software. Automate workflows, access powerful analytics, and take control of your sales pipeline. Sign up now!
-   ">
-<title>Industries</title>
+<meta name="description" content="Industry-specific CRM solutions for Automotive, Healthcare, Financial, Retail, and Consulting businesses. Getlead adapts to your industry needs.">
+<title>Industry CRM Solutions - Automotive, Healthcare & More | Getlead</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Industry-Specific CRM Solutions | Getlead" />
+<meta property="og:description" content="Industry-specific CRM solutions for Automotive, Healthcare, Financial, Retail, and Consulting. Getlead adapts to your industry." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Industry-Specific CRM Solutions | Getlead" />
+<meta name="twitter:description" content="Industry-specific CRM solutions for Automotive, Healthcare, Financial, Retail, and Consulting. Getlead adapts to your industry." />
 @endsection
 @section('css')
 @endsection

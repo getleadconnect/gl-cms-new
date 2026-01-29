@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="Close deals faster with GetLead CRM's deal management software. Automate workflows, access powerful analytics, and take control of your sales pipeline. Sign up now!
-   ">
-<title>Automotive CRM</title>
+<meta name="description" content="Purpose-built CRM for auto dealerships & automotive businesses. Track leads, manage inventory inquiries, and close more vehicle sales. Try free!">
+<title>Best Automotive CRM Software in India | Getlead</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Best Automotive CRM Software in India | Getlead" />
+<meta property="og:description" content="Purpose-built CRM for auto dealerships & automotive businesses. Track leads, manage inventory inquiries, and close more vehicle sales." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Best Automotive CRM Software in India | Getlead" />
+<meta name="twitter:description" content="Purpose-built CRM for auto dealerships & automotive businesses. Track leads, manage inventory inquiries, and close more vehicle sales." />
 @endsection
 @section('css')
 @endsection

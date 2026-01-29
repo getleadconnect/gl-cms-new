@@ -1,7 +1,15 @@
 @extends('website.layout.design')
 @section('title')
 <meta name="description" content="Maximize your sales pipeline with GetLead CRM's Lead management tools. Automate workflows, track leads, and boost conversions. Sign up now!">
-<title>Features</title>
+<title>CRM Features - Lead, Deal & Task Management | Getlead</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Getlead CRM Features - Lead, Deal & Task Management" />
+<meta property="og:description" content="Powerful CRM features including lead management, deal tracking, task automation, and seamless integrations. Boost your sales efficiency." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Getlead CRM Features - Lead, Deal & Task Management" />
+<meta name="twitter:description" content="Powerful CRM features including lead management, deal tracking, task automation, and seamless integrations. Boost your sales efficiency." />
 @endsection
 @section('css')
 @endsection

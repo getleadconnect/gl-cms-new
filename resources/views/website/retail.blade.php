@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="Gain higher retail sales with Getlead CRM. Improve organization, customer interaction, and sales with the most effective CRM solution for retail businesses.
-   ">
-<title> Best CRM for Retail Sales Management | Getlead</title>
+<meta name="description" content="Gain higher retail sales with Getlead CRM. Improve organization, customer interaction, and sales with the most effective CRM solution for retail.">
+<title>Best CRM for Retail Sales Management | Getlead</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Best CRM for Retail Sales Management | Getlead" />
+<meta property="og:description" content="Gain higher retail sales with Getlead CRM. Improve organization, customer interaction, and sales effectively." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Best CRM for Retail Sales Management | Getlead" />
+<meta name="twitter:description" content="Gain higher retail sales with Getlead CRM. Improve organization, customer interaction, and sales effectively." />
 @endsection
 @section('css')
 @endsection

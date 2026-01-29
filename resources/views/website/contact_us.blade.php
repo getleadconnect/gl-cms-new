@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="Have a question or need support with our CRM? Get in touch with the GetLead CRM team today. We are here to help you streamline your sales process and grow your business. Contact us now!">
-<title>Contact Us | Get in Touch with GetLead CRM Team
-</title>   
+<meta name="description" content="Have a question or need support? Get in touch with the Getlead CRM team today. We're here to help you streamline your sales and grow your business.">
+<title>Contact Us | Get in Touch with Getlead CRM Team</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Contact Getlead CRM - Get in Touch" />
+<meta property="og:description" content="Have a question or need support? Get in touch with the Getlead CRM team today. We're here to help!" />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Contact Getlead CRM - Get in Touch" />
+<meta name="twitter:description" content="Have a question or need support? Get in touch with the Getlead CRM team today. We're here to help!" />
 @endsection
 @section('css')
 {{ Html::style('css/jquery.ccpicker.css') }}
