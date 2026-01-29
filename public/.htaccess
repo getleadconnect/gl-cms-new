@@ -5,8 +5,16 @@
 
     RewriteEngine On
 
+    # ========== SEO: Block Feed URLs from Indexing (2026-01-29) ==========
+    # Add X-Robots-Tag: noindex for feed/RSS URLs
+    <IfModule mod_headers.c>
+        <If "%{REQUEST_URI} =~ m#/feed/?|/rss2/?|/search/.*/feed#">
+            Header set X-Robots-Tag "noindex, nofollow"
+        </If>
+    </IfModule>
+    # ========== END Feed Blocking ==========
 
-   # Handle Authorization Header
+    # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 

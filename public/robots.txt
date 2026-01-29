@@ -1,2 +1,23 @@
+# Getlead CRM - Robots.txt
+# Updated: 2026-01-29
+
 User-agent: *
 Disallow:
+
+# Block feed/RSS URLs (low SEO value, causing crawl budget waste)
+Disallow: /blog/*/feed/
+Disallow: /blog/*/feed/rss2/
+Disallow: /blog/feed/
+Disallow: /blog/search/
+Disallow: /blog/search/*/feed/
+
+# Block admin and internal paths
+Disallow: /admin/
+Disallow: /login
+Disallow: /register-page
+
+# Block query parameters on blog pagination
+Disallow: /blog?page=*
+
+# Sitemap location
+Sitemap: https://getleadcrm.com/sitemap.xml
