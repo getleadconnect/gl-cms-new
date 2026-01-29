@@ -5,8 +5,25 @@
 
     RewriteEngine On
 
+    # ========== SEO FIXES (2026-01-29) ==========
+    
+    # Force www to non-www (canonical domain)
+    RewriteCond %{HTTP_HOST} ^www\.getleadcrm\.com [NC]
+    RewriteRule ^(.*)$ https://getleadcrm.com/$1 [R=301,L]
+    
+    # Redirect /download to mobile app page (404 fix)
+    RewriteRule ^download/?$ https://getleadcrm.com/crm-mobile-app [R=301,L]
+    
+    # Redirect /CRM (uppercase) to homepage (case sensitivity fix)
+    RewriteRule ^CRM/?$ https://getleadcrm.com/ [R=301,L]
+    
+    # Redirect broken blog URLs (404 fixes)
+    RewriteRule ^blog/crm/?$ https://getleadcrm.com/blog [R=301,L]
+    RewriteRule ^blog/understanding-whatsapp-channels-how-to-create-and-join/?$ https://getleadcrm.com/blog [R=301,L]
+    
+    # ========== END SEO FIXES ==========
 
-   # Handle Authorization Header
+    # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
@@ -15,11 +32,10 @@
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
-
     RewriteCond %{REQUEST_URI} ^/blog
     RewriteRule ^blog(/.*)?$ blog/index.php [L]
 
-    # Permanent Redirect for Specific Domain
+    # Permanent Redirect for Specific Domain (legacy typo fix)
     RewriteRule ^downlad$ https://getleadcrm.com/crm-mobile-app [L,R=301]
 
     # Send Requests To Front Controller...
