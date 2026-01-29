@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="GetLead CRM offers affordable pricing plans for businesses of all sizes. Choose a plan that fits your business needs and budget, and start managing your sales and marketing processes more efficiently with GetLead CRM.">
-<title>GetLead CRM Pricing - Choose a Plan That Fits Your Business
-</title>   
+<meta name="description" content="Simple, transparent CRM pricing for every business. All features included in every plan. Start with a free trial today!">
+<title>Getlead CRM Pricing - Simple Plans, All Features | Free Trial</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Getlead CRM Pricing - Affordable Plans for Every Business" />
+<meta property="og:description" content="Simple, transparent pricing. Choose a plan that fits your business. All features included. Start free today." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Getlead CRM Pricing - Affordable Plans for Every Business" />
+<meta name="twitter:description" content="Simple, transparent pricing. Choose a plan that fits your business. All features included. Start free today." />
 @endsection
 @section('css')
 {{ Html::style('css/jquery.ccpicker.css') }}

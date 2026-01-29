@@ -1,7 +1,16 @@
 @extends('website.layout.design') @section('title')
 <meta name="description" content="Learn about GetLead CRM's story, mission, and team. Discover how our powerful and customizable CRM software can help you streamline your sales and marketing processes and grow your business." />
 <title>About GetLead CRM - Our Story and Mission | GetLead CRM</title>
-@endsection @section('css') @endsection @section('code')
+@endsection
+@section('og_tags')
+<meta property="og:title" content="About Getlead CRM - Our Story and Mission" />
+<meta property="og:description" content="Learn about Getlead CRM's story, mission, and team. Discover how our powerful CRM can help streamline your sales processes." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="About Getlead CRM - Our Story and Mission" />
+<meta name="twitter:description" content="Learn about Getlead CRM's story, mission, and team. Discover how our powerful CRM can help streamline your sales processes." />
+@endsection
+@section('css') @endsection @section('code')
 <div class="rogan-hero-section-sec rogan-hero-section-v2 rogan-hero-section rogan-hero-five pb-0 pt-150 md-pt-100 pos-r">
     <div class="container">
         <div class="main-wrapper pos-r">

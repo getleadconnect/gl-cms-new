@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="Close deals faster with GetLead CRM's deal management software. Automate workflows, access powerful analytics, and take control of your sales pipeline. Sign up now!
-   ">
-<title>Deal Management with GetLead CRM - Close More Deals Faster</title>
+<meta name="description" content="Close deals faster with Getlead CRM's deal management software. Automate workflows, access powerful analytics, and take control of your sales pipeline.">
+<title>Deal Management with Getlead CRM - Close More Deals Faster</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Deal Management Software | Getlead CRM" />
+<meta property="og:description" content="Close deals faster with Getlead CRM's deal management. Automate workflows, access analytics, and control your sales pipeline." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Deal Management Software | Getlead CRM" />
+<meta name="twitter:description" content="Close deals faster with Getlead CRM's deal management. Automate workflows, access analytics, and control your sales pipeline." />
 @endsection
 @section('css')
 @endsection
