@@ -1,8 +1,15 @@
 @extends('website.layout.design')
 @section('title')
 <meta name="description" content="Connect your favorite tools and streamline your workflows with GetLead CRM integrations. Manage sales and marketing processes more efficiently. Sign up now!">
-<title>GetLead CRM Integrations - Connect Your Favorite Tools and Boost Productivity
-</title>   
+<title>CRM Integrations - Connect Your Tools | Getlead</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Getlead CRM Integrations - Connect Your Favorite Tools" />
+<meta property="og:description" content="Seamlessly integrate with WhatsApp, Facebook, Zapier, and more. Streamline workflows and boost productivity with Getlead CRM." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Getlead CRM Integrations - Connect Your Favorite Tools" />
+<meta name="twitter:description" content="Seamlessly integrate with WhatsApp, Facebook, Zapier, and more. Streamline workflows and boost productivity with Getlead CRM." />
 @endsection
 @section('css')
 {{ Html::style('css/jquery.ccpicker.css') }}

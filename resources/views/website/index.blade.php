@@ -1,6 +1,16 @@
 @extends('website.layout.design') @section('title')
 <meta name="description" content="Find top CRM software in India at Getlead. Perfect for any business size, our best CRM offers a free package and is a full CRM solution.">
-<title>Getlead - Best CRM Software in India | Top CRM Platform</title> @endsection @section('css') <style>
+<title>Getlead - Best CRM Software in India | Top CRM Platform</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Getlead - Best CRM Software in India | Free Trial" />
+<meta property="og:description" content="India's top CRM for lead management, sales tracking & customer relationships. Free package available. Start your free trial today!" />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Getlead - Best CRM Software in India | Free Trial" />
+<meta name="twitter:description" content="India's top CRM for lead management, sales tracking & customer relationships. Free package available. Start your free trial today!" />
+@endsection
+@section('css') <style>
   .testimonial-image {
     border-radius: 50% !important;
   }

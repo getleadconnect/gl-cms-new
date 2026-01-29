@@ -1,9 +1,15 @@
 @extends('website.layout.design')
 @section('title')
-<meta name="description" content="The Best CRM for Financial Services to Elevate Client Relationships, Streamline Processes, and Drive Financial Growth. Discover Getlead Solution.
-   ">
-<title>Best CRM for Financial Services | Getlead CRM Solution
-</title>
+<meta name="description" content="The Best CRM for Financial Services. Elevate client relationships, streamline processes, and drive financial growth with Getlead.">
+<title>Best CRM for Financial Services | Getlead CRM Solution</title>
+@endsection
+@section('og_tags')
+<meta property="og:title" content="Best CRM for Financial Services | Getlead" />
+<meta property="og:description" content="Elevate client relationships, streamline processes, and drive financial growth. CRM built for financial services." />
+@endsection
+@section('twitter_tags')
+<meta name="twitter:title" content="Best CRM for Financial Services | Getlead" />
+<meta name="twitter:description" content="Elevate client relationships, streamline processes, and drive financial growth. CRM built for financial services." />
 @endsection
 @section('css')
 @endsection
