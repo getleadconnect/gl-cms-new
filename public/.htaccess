@@ -5,25 +5,54 @@
 
     RewriteEngine On
 
-
-   # Handle Authorization Header
+    # ----------------------------------------------------
+    # Handle Authorization Header
+    # ----------------------------------------------------
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
-    # Redirect Trailing Slashes If Not A Folder...
+    # ----------------------------------------------------
+    # Force www to non-www
+    # ----------------------------------------------------
+    RewriteCond %{HTTP_HOST} ^www\.getleadcrm\.com [NC]
+    RewriteRule ^(.*)$ https://getleadcrm.com/$1 [R=301,L]
+
+    # ----------------------------------------------------
+    # Redirect specific URLs
+    # ----------------------------------------------------
+
+    # Redirect /download to /crm-mobile-app
+    RewriteRule ^download/?$ /crm-mobile-app [R=301,L]
+
+    # Old typo redirect (kept from your file)
+    RewriteRule ^downlad/?$ https://getleadcrm.com/crm-mobile-app [R=301,L]
+
+    # Redirect uppercase /CRM to homepage
+    RewriteRule ^CRM/?$ / [R=301,L]
+
+    # Redirect old blog URLs that 404
+    RewriteRule ^blog/crm/?$ /blog [R=301,L]
+    RewriteRule ^blog/understanding-whatsapp-channels-how-to-create-and-join/?$ /blog [R=301,L]
+
+    # ----------------------------------------------------
+    # Remove trailing slash if not a directory
+    # ----------------------------------------------------
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
-    RewriteRule ^ %1 [L,R=301]
+    RewriteRule ^ %1 [R=301,L]
 
-
+    # ----------------------------------------------------
+    # Blog routing
+    # ----------------------------------------------------
     RewriteCond %{REQUEST_URI} ^/blog
     RewriteRule ^blog(/.*)?$ blog/index.php [L]
 
-    # Permanent Redirect for Specific Domain
-    RewriteRule ^downlad$ https://getleadcrm.com/crm-mobile-app [L,R=301]
-
-    # Send Requests To Front Controller...
+    # ----------------------------------------------------
+    # Send requests to front controller
+    # ----------------------------------------------------
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
 </IfModule>
+
